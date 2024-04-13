@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-header{
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -23,19 +23,19 @@ header{
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-nav{
+/* changed to semantic term for navigation */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* made semantically correct */
 ul {
     list-style-type: none;
 }
-
+/* made semantically correct */
 ul li {
     display: inline-block;
     margin-left: 25px;
@@ -84,8 +84,10 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
 
+ 
+}
+   /* combined elemtents into a single class to reduce clutter */
 .benefit-title {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,7 +103,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* combined elemtents into a single class to reduce clutter */
 .article-title {
     margin-bottom: 20px;
     padding: 50px;
@@ -110,11 +112,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* combined elemtents into a single class to reduce clutter */
 .article-title img {
     max-height: 200px;
 }
-
+/* combined elemtents into a single class to reduce clutter */
 .article-title h2 {
     margin-bottom: 20px;
     font-size: 36px;
